@@ -80,7 +80,7 @@ author:
   name             : "Sean Kang"
   avatar           : https://avatars3.githubusercontent.com/u/6727473 # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "I'm Full Stack Developer (Python, Android, AWS)"
-  location         : "Inchoen, Korea"
+  location         : "Incheon, Korea"
   email            : "sean.kkang@gmail.com"
   uri              :
   bitbucket        :
@@ -172,7 +172,7 @@ sass:
 
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 20 # amount of posts to show
 paginate_path: /page:num/
 timezone: # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
