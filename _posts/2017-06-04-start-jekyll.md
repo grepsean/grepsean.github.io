@@ -1,3 +1,5 @@
+{% include toc %}
+
 # Jekyll 시작하기
 
 
@@ -24,7 +26,7 @@
   2. `bundle install` : 생성된 디렉토리에서 dependencies 설치
 
 
-- ## Jekyll(블로그) 생성하기
+- ## Jekyll(블로그) 실행하기 (Local에서 확인)
   1. `jekyll serve --watch` : local에서 jekyll 실행하기 (`--watch` 옵션은 변경시 자동 로딩을 위함)
   2. [http://localhost:4000](http://localhost:4000){:target="_blank"} 으로 접속해서 확인한다.
 
