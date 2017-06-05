@@ -1,6 +1,5 @@
-{% include toc %}
-
 # Jekyll 시작하기
+{% include toc %}
 
 
 - ## ruby 버전 업데이트
