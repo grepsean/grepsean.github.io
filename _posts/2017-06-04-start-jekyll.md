@@ -1,5 +1,5 @@
 # Jekyll 시작하기
-
+Jeykyll와 Github을 이용한 간단하게 블로그를 만들어봅시다.
 
 {% include toc %}
 
