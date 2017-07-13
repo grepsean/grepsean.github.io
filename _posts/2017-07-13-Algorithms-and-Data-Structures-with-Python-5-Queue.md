@@ -109,34 +109,34 @@ excerpt: "큐는 'FIFO; First-in, First-out' 즉, 가장 먼저 저장된 데이
 
         def enqueue(self, data):
           if self.is_full():
-              raise Exception('큐가 꽉 찼습니다!')
+            raise Exception('큐가 꽉 찼습니다!')
 
           new_node = Node(data)
           if self.is_empty():
-              self.front = new_node
+            self.front = new_node
           else:
-              self.rear.next = new_node              
+            self.rear.next = new_node              
           self.rear = new_node
 
           self.size += 1
 
-      def dequeue(self):
+        def dequeue(self):
           if self.is_empty():
-              raise Exception('큐가 비었습니다!')
+            raise Exception('큐가 비었습니다!')
 
           del_node = self.front
           self.front = self.front.next
           self.size -= 1
 
           if self.is_empty():
-              self.rear = None
+            self.rear = None
           return del_node.data
 
         def peek(self):
           if self.is_empty():
             raise Exception('큐가 비었습니다!')
 
-          return self.front
+            return self.front
 
         def is_empty(self):
           return self.size == 0
@@ -147,9 +147,8 @@ excerpt: "큐는 'FIFO; First-in, First-out' 즉, 가장 먼저 저장된 데이
         def display(self):
           current = Node(None, self.front)
           while current.next:
-              current = current.next
-              print(current)
-
+            current = current.next
+            print(current)
     ```
   <br />
 
