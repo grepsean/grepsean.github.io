@@ -1,5 +1,6 @@
 ---
 title: "파이썬으로 배워보는 자료구조와 알고리즘 4 - 스택(Stack)"
+excerpt: "스택은 'LIFO; Last-in, First-out' 즉, 가장 마지막에 저장된 데이터가 가장 먼저 나오는 자료구조이다."
 ---
 
 {% include toc %}
@@ -11,6 +12,7 @@ title: "파이썬으로 배워보는 자료구조와 알고리즘 4 - 스택(Sta
   따라서 제일 마지막에 쌓아올린 동전을 제일 먼저 꺼내게될 것이다. 이것이 바로 스택의 원리이다.
   <img width="300px" src="{{ site.url }}/assets/images/{{ page.date | date: "%Y-%m-%d" }}/coin_stack.jpg" />
 
+
   <br />
 
   스택에서 데이터를 저장하는 연산을 **Push**, 데이터를 빼내는 연산을 **Pop** 이라고 한다. 이러한 연산은 추후 다른 자료구조에서도 사용되니 기억해두면 좋다. 그림으로 보면 아래와 같다. <br />
@@ -18,7 +20,7 @@ title: "파이썬으로 배워보는 자료구조와 알고리즘 4 - 스택(Sta
   <img height="300px" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Data_stack.svg/600px-Data_stack.svg.png" />
   <br />
 
-  스택 자료구조의 추상 자료형(ADT)으로 먼저 구현해보자. 이 ADT는 추후 큐에서도 동일하게 쓰인다.
+  스택 자료구조의 추상 자료형(ADT)으로 먼저 구현해보자. 추후 큐 자료구조에서도 비슷한 구조의 ADT가 사용된다.
   1. 데이터를 스택에 저장(Push)한다.
   2. 데이터를 스택에서 꺼내(Pop)낸다. 데이터를 Pop하고 나서는 스택에서 해당 데이터를 삭제된다.
   3. 데이터를 스택에서 꺼내전에 잠깐 참조(Peek)할 수 있다.
