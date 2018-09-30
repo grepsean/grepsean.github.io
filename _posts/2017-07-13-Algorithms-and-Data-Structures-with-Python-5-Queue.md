@@ -15,7 +15,7 @@ excerpt: "큐는 'FIFO; First-in, First-out' 즉, 가장 먼저 저장된 데이
   <br />
 
   큐에서는 데이터를 저장하는 연산을 **Enqueue**, 데이터를 꺼내는 연산을 **Dequeue** 이라고 한다. 또한 **Enqueue** 와 **Dequeue** 의 방향을 위해 **Front** 와 **Rear**(아래에서는 Back)라는 참조 값이 필요하다. 그림으로 보면 아래와 같다. <br />
-  <img style="height:350px;" src="https://cdn.namuwikiusercontent.com/c9/c9cb17ac86baee99d660d35de6b31d8bfc7889a104ad232c7a4c90902f25913f.png?e=1504804608&k=gBDWqCVEHZCA7CFS_G-Vag" />
+  <img style="height:350px;" src="https://namu.wiki/w/%ED%8C%8C%EC%9D%BC:attachment/%ED%81%90(%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0)/queue.png" />
   <br />
 
   큐 자료구조의 추상 자료형(ADT)으로 먼저 구현해보자. 이 ADT는 스택과 거의 동일하다.
@@ -53,7 +53,7 @@ excerpt: "큐는 'FIFO; First-in, First-out' 즉, 가장 먼저 저장된 데이
   - 큐의 구현은 ArrayList나 LinkedList를 이용해 구현할 수 있다.
   ArrayList를 이용하는 경우 Circular Queue로 구현할 수 있다. Circular Queue로 구현하는 이유는 Queue 자료구조의 성격상 한쪽 방향으로 계속 움직이게된다. 위에서의 그림처럼 왼쪽에서 Enqueue하고 오른쪽에서 Dequeue하게되면, 저장 공간은 왼쪽 방향으로 계속 움직이게된다. 따라서 원형으로 구현하게 된다면, 방향성에 상관없이 효율적으로 공간을 활용할 수 있게되는 것이다.
   또한 Deque(Double Endded Quque; 덱이라고 발음)이라는 자료구조는 큐와 동일하지만 양쪽에서 데이터를 넣고 뺄 수 있다. python의 collection framework에는 deque이라는 클래스를 제공하기 때문에 이 클래스를 이용해서 Queue(혹은 Stack)를 구현할 수 있다. <br />
-  <img width="500px" src="https://cdn.namuwikiusercontent.com/0a/0a985ca4d999fa7455d5d67904651df586f82615dcaff72e906df83b1e65197a.jpg?e=1505745915&k=pemSFfoFMv3IYVp4sOU1iQ" /> <br />
+  <img width="500px" src="https://namu.wiki/w/%ED%8C%8C%EC%9D%BC:attachment/%ED%81%90(%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0)/deque.jpg" /> <br />
 
   -  ArrayList(배열)로 구현, Circular Queue로 구현
     ```python
