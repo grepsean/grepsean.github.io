@@ -15,7 +15,7 @@ excerpt: "큐는 'FIFO; First-in, First-out' 즉, 가장 먼저 저장된 데이
   <br />
 
   큐에서는 데이터를 저장하는 연산을 **Enqueue**, 데이터를 꺼내는 연산을 **Dequeue** 이라고 한다. 또한 **Enqueue** 와 **Dequeue** 의 방향을 위해 **Front** 와 **Rear**(아래에서는 Back)라는 참조 값이 필요하다. 그림으로 보면 아래와 같다. <br />
-  <img style="height:350px;" src="https://namu.wiki/w/%ED%8C%8C%EC%9D%BC:attachment/%ED%81%90(%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0)/queue.png" />
+  <img style="height:350px;" src="https://upload.wikimedia.org/wikipedia/commons/5/52/Data_Queue.svg" />
   <br />
 
   큐 자료구조의 추상 자료형(ADT)으로 먼저 구현해보자. 이 ADT는 스택과 거의 동일하다.
